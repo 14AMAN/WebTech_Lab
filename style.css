@@ -11,10 +11,44 @@ body {
 
   .hd_a
   { 
+    font-size: 55px;
+    color: darkblue;
+    align-items: center;
     text-decoration: none;
+
   }
   .nav_a{
+    align-items: center;
     font-size: medium;
+  }
+  .category{
+    font-size: 20px;
+    margin: 1%;
+    
+  }
+  .addCart{
+    width: 15px;
+    height: inherit;
+  }
+  .menu{
+    margin-right: 20px;
+  }
+  .img_css{
+    padding: 0px 60px ;
+  }
+  .cat_img{
+    width: 100px;
+    height: 150px;
+  }
+  .cat_li{
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .cs_cs{
+    align-items: center;
+  }
+  .reg_a{
+
   }
   
 
@@ -23,4 +57,5 @@ body {
   .login_table {
     border-spacing: 25px;
   }
+  
   
