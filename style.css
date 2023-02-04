@@ -1,0 +1,26 @@
+                              /* Index Page  */
+body {
+    background-color: rgb(192, 236, 221);
+    background-repeat: no-repeat;
+    
+    
+  }
+   a{
+     margin: 20px;
+  } 
+
+  .hd_a
+  { 
+    text-decoration: none;
+  }
+  .nav_a{
+    font-size: medium;
+  }
+  
+
+                              /* login page */
+
+  .login_table {
+    border-spacing: 25px;
+  }
+  
