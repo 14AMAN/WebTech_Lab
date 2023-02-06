@@ -57,5 +57,11 @@ body {
   .login_table {
     border-spacing: 25px;
   }
+  /* Register */
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
   
   
