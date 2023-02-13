@@ -9,6 +9,12 @@ body {
      margin: 20px;
   } 
 
+
+  .cart{
+    align-content: right;
+    font-size: medium;
+  }
+
   .hd_a
   { 
     font-size: 55px;
