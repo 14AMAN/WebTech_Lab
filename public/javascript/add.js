@@ -8,7 +8,7 @@ const form = document.querySelector("#register");
 
 form.addEventListener("submit", function (e) {
   // prevent the form from submitting on click of submit
-  e.preventDefault();
+ e.preventDefault();
   // vvalidate forms
   let isNameValid = checkName(),
     isUsernameValid = checkUsername(),
@@ -26,8 +26,7 @@ form.addEventListener("submit", function (e) {
     isConfirmPasswordValid;
   // submit to server if valid
   if (isFormValid) {
-    // lines of code
-    // $(this).unbind(e);
+    form.submit();
   }
 });
 

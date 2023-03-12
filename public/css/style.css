@@ -17,6 +17,7 @@ body {
     color: darkblue;
     align-items: center;
     text-decoration: none;
+    display: inline;
 
   }
   .nav_a{
@@ -52,7 +53,10 @@ body {
   .reg_a{
 
   }
-  
+  #profileName{
+    margin-left: 77%;
+    display: inline;
+  }
 
                               /* login page */
 
@@ -66,4 +70,40 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
   
-  
+.container {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  /* width: 200px; */
+  justify-content: center;
+  /* display: grid; */
+  /* min-height: 100vh; */
+  /* margin: 50px; */
+  margin: auto;
+  width: 30%;
+  /* border: 3px solid green; */
+  padding: 10px;
+}
+.btn {
+  width: 20%;
+  padding: 5px;
+  background: #007bff;
+  border-bottom: 2px solid #007bff;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background: #0069d9;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
