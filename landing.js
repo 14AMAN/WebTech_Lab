@@ -22,14 +22,16 @@ app.get("/login",function(req,res){
 app.post("/login",function(req,res){
     let Lemail = req.body.email;
     let Lpassword = req.body.password;
+    let flag=true;
     for(let i=0 ; i<data.length ; i++){
         if(data[i].email===Lemail && data[i].password ===Lpassword){
             loginName=data[i].name;
+            flag=false;
             res.redirect("/");
         }
     }
     console.log(Lemail+" . "+Lpassword)
-    res.redirect("login");
+    if(flag)  res.redirect("login");
 });
 
 // about page
